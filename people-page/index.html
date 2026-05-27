@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Minds Behind Juice Shop</title>
+  <meta name="description" content="Meet the brilliant (and fictional) minds who brought Juice Shop to life.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">🧃</span>
+        Juice Shop Team
+      </a>
+      <a href="http://juice-shop:3000" class="back-link">← Back to Juice Shop</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="hero-badge">Behind the scenes</span>
+        <h1>The brilliant minds behind <span>Juice Shop</span></h1>
+        <p>
+          Juice Shop didn't build itself. Meet the fictional team who architected,
+          broke, and beautifully documented every vulnerable endpoint.
+        </p>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <div class="container">
+        <h2>Meet the team</h2>
+        <p class="section-sub">Click "Learn more" on any card to discover their story.</p>
+        <div id="team-grid" class="team-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        Fictional team page for educational purposes ·
+        <a href="http://juice-shop:3000">Back to Juice Shop</a>
+      </p>
+    </div>
+  </footer>
+
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-content">
+    <div class="modal">
+      <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
