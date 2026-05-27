@@ -4,7 +4,7 @@ A small static “meet the team” page for [OWASP Juice Shop](https://owasp.org
 
 ## What's inside
 
-- `**people-page/**` — HTML, CSS, and vanilla JS
+- **`people-page/`** — HTML, CSS, and vanilla JS
 - Six fictional team members with bios, tags, and “Learn more” modals
 
 No dependencies.
